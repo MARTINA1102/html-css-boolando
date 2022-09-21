@@ -18,6 +18,7 @@
 	right: 0;
 	left: 0;
 	height: 4rem;
+    z-index: 5;
 	
 }
 
@@ -38,4 +39,139 @@ li{
 a{
     text-decoration: none;
     color: white;
+}
+
+body{
+    margin-top: 10rem;
+}
+main{
+    max-width: 1500px;
+    
+}
+.container-card{
+    background-color: aqua;
+    max-width: 900px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.percentuale{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+.sost{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+.heart{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    position:absolute;
+    top:20px;
+    left: 228px;
+    padding:2px;
+
+
+}
+.img-uno{
+    width: 250px;
+    position: relative;
+}
+
+.top-img{
+    position:absolute;
+    top:300px;
+}
+.top-imgb{
+    position:absolute;
+    top:750px
+}
+
+
+
+.bottom-card{
+    padding-bottom: 20px;
+}
+
+.img-2{
+    width: 250px;
+
+}
+
+.img-unoa{
+    width: 250px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.img-unoa:hover{
+    opacity: 0;
+}
+
+.img-duea{
+    width: 250px;
+    position: absolute;
+    top:0px;
+    left:325px;
+
+}
+
+.img-duea:hover{
+    opacity: 0;
+}
+
+.img-trea{
+    width: 250px;
+    position: absolute;
+    top:0px;
+    left:650px;
+
+}
+
+.img-trea:hover{
+    opacity: 0;
+}
+
+.img-quattroa{
+    width: 250px;
+    position: absolute;
+    top:445px;
+    left:0px;
+
+}
+
+.img-quattroa:hover{
+    opacity: 0;
+}
+
+.img-cinquea{
+    width: 250px;
+    position: absolute;
+    top:445px;
+    left:325px;
+
+}
+
+.img-cinquea:hover{
+    opacity: 0;
+}
+
+.img-seia{
+    width: 250px;
+    position: absolute;
+    top:445px;
+    left:650px;
+
+}
+
+.img-seia:hover{
+    opacity: 0;
 }
