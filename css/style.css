@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.container-flex{
+    background-color: orange;
+    max-width: 1500px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 4rem;
+	
+}
+
+.sesso-flex,.icone{
+    display: flex;
+    list-style: none;
+}
+
+.logo{
+    width: 100px;
+    align-self: center;
+    }
+
+li{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
